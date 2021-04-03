@@ -24,21 +24,24 @@
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
 
-      <!-- Delete this message -->
-      <div class="warning">
-        <ol>
-          <li>Edit the <code>_data/metadata.json</code> with your blog’s information.</li>
-          <li>(Optional) Edit <code>.eleventy.js</code> with your <a href="https://www.11ty.dev/docs/config/">configuration preferences</a>.</li>
-          <li>Delete this message from <code>_includes/layouts/base.njk</code>.</li>
-        </ol>
-        <p><em>This is an <a href="https://www.11ty.dev/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
-      </div>
-      <!-- Stop deleting -->
-
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer>
+       <ul>
+          <a href="/">Louise Gilligan</a>
+          <li><a href="contact.html" className="footer">Contact</a></li>
+          <li><a href="https://www.linkedin.com/in/louise-gilligan-3b437069/" className="footer">Linkedin</a></li>
+          <li><a href="https://www.instagram.com/louisesgilligan/" className="footer">Instagram</a></li>
+          <li><a href="https://github.com/Looease" className="footer">Github</a></li>
+        </ul>
+        <ul>
+          <a href="index.html#iamprojects">Portfolio</a>
+          <li><Link to="kblSolutions.html" className="footer">KBL Solutions</Link></li>
+          <li><Link to="museumMeltdown.html"className="footer">Museum Meltdowm</Link></li>
+          <li><Link to="resources.html" className="footer">Resources</Link></li>
+        </ul>
+    </footer>
 
     <!-- Current page: {{ page.url | url }} -->
   </body>
