@@ -1,0 +1,240 @@
+:root {
+  --lightgray: #e0e0e0;
+  --gray: #C0C0C0;
+  --darkgray: #333;
+  --navy: #17050F;
+  --blue: #082840;
+  --white: #fff;
+  --duck: #AECDD2;
+}
+
+/* 
+.navcontainer{
+    padding: 0px;
+  } */
+  header{
+    /* position: fixed; */
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 22vh; */
+    /* padding: 8px; */
+    /* border-radius: 0px 0px 10px 10px; */
+    /* z-index: 9990; */
+    background-color: var(--duck);
+  }
+/*   
+.navcontainerScroll{
+  padding: 20px 0px 0px 0px;
+  background-color: rgba(0, 0, 0, 0.2);
+}*/
+.nav{
+    margin-left: 25%;
+}
+  .logo{
+    height: auto;
+    display: inline-block;
+    outline: none;
+    color: var(--white);
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    cursor: pointer;
+  } 
+  .hidden{
+    display: none;
+  }
+  
+  footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--duck);
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    /* background-color: #F6C0B2; */
+    /* background-color: #F6C8C8; */
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+   overflow: hidden;
+  }
+  footer ul{
+    font-size: 1.3em;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+  }
+  footer ul a{
+    margin-bottom: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+  }
+  footer ul li {
+    margin-top: 10px;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    list-style: none;
+    font-size: 0.9em;
+  }
+  .companieshouse{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    background-color: #F6C8C8;
+  }
+  .footer{
+    text-decoration: none;
+  }
+
+
+  /*nav ul{
+    float: right;
+  }
+  nav ul li{
+    display: inline-block; */
+     /*float: left; */
+    /* margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: static;
+  }
+  nav div ul li:first-child{
+    margin-left: 48px;
+  }
+  nav div ul li:last-child{
+    margin-right: 24px;
+  }
+  nav div ul li a, .name{
+    display: inline-block;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  a:visited{
+    color: white;
+    text-decoration: none;
+  }
+  .active{
+   border-bottom: 1.5px solid white;
+   margin-bottom: -12px;
+   padding-bottom: 10.5px;
+  }
+
+
+  @media screen and (max-width: 1320px){
+    nav div ul li{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    nav div ul li:first-child{
+      margin-left: 20px;
+    }
+    nav div ul li:last-child{
+      margin-right: 10px;
+    }
+  } */
+
+  @media screen and (max-width: 915px){
+    #navbar{
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 0px;
+      border-radius: 0px 0px 10px 10px;
+      line-height: 0px;
+      z-index: 9990;
+    }
+    .logo{
+      display: flex;
+      font-size: 1em;
+    }
+    #navLinks{
+      padding: 0px;
+    }
+    #navLinks li a{
+      font-size: 1rem;
+    }
+     #navbar{
+       padding: 0px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       padding: 0px;
+       border-radius: 0px 0px 10px 10px;
+       line-height: 0px;
+       z-index: 9990;
+     }
+     #navLinks{
+       padding: 0px;
+     }
+     #navLinks li a{
+       font-size: 1rem;
+     }
+  }; 
+  /* @media screen and (max-width: 717px){
+    nav{
+      display: flex;
+      flex-direction: column;
+    }
+  } */
+  @media screen and (max-width: 500px){
+    /* .logo{
+      font-size: 1.8em;
+    } */
+    #mobileTap{
+      display: block;
+    }
+    .hideMe{
+      display: none;
+    }
+    nav div ul li{
+      margin: 30px 5px 0px 5px;
+    }
+    nav div ul li:first-child{
+      margin-left: 2px;
+    }
+    nav div ul li:last-child{
+      margin-right: 2px;
+    }
+    #navLinks{
+      font-size: 0.2em;
+    }
+  };
+
+  @media screen and (max-width: 375px){
+    .logo{
+      font-size: 1.5em;
+    }
+  }; 
+
+
+
+
+
+
+
+

@@ -4,11 +4,59 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-{# {% set maxPosts = collections.posts.length | min(3) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+
+<section class="landingHead">
+<div>
+<p class="landingTitle">Louise Gilligan</p>
+<p class="landingSubTitle">I am a Software Engineer</p>
+</div>
+ <img src="img/landing/25461.jpg" class="me"></img> 
+</section>
+<section class="intro">
+<p>Junior Software Engineer certified in JavaScript. 
+I am currently a full time enginner and full time student, working through the BCS Level 4 Software Enineering Apprenticeship.</p>
+</section>
+
+<section class="neonSection">
+<p class="neon">
+Welcome
+</p>
+</section> 
+
+<section class="homePageAnchorLinks">
+<ul class="squaresContainer">
+
+<li class="square">
+<img src="img/landing/5.jpeg">
+<a>Projects</a>
+</li>
+
+<li class="square">
+<a>
+<img src="img/landing/4.jpeg"></img>
+</a>
+</li>
+
+<li class="square">
+<a>
+<img src="img/landing/2.jpeg"></img>
+</a>
+</li>
+
+<li class="square">
+<a>
+<img src="img/landing/3.jpeg"></img>
+</a>
+</li>
+
+</ul>
+</section>
+
+ {% set maxPosts = collections.posts.length | min(3) %}
+{# <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1> #}
 
 {% set postslist = collections.posts | head(-3) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p> #}
+<p>More posts can be found in <a href="{{ '/resources/' | url }}">the resources section</a>.</p>
