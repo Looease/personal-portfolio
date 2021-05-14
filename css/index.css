@@ -227,6 +227,7 @@ code {
 }
 
 .intro{
+  height: 30vh;
   margin-top: 125px;
   display: flex;
   justify-content: center;
@@ -244,6 +245,7 @@ code {
 .neonSection p{
   text-align: center;
   margin: 20px 0 20px 0;
+  height: 40vh;
   width: 100%;
   color: 0 0 10px var(--duck);
 }
