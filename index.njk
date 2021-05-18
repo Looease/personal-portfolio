@@ -6,10 +6,7 @@ eleventyNavigation:
 ---
 
 <section class="landingHead">
-<div>
-<p class="landingTitle">Louise Gilligan</p>
-<p class="landingSubTitle">I am a Software Engineer</p>
-</div>
+<p class="landingTitle">Louise {{typewriter}}</p>
  <img src="img/landing/25461.jpg" class="me"></img> 
 </section>
 <section class="intro">
@@ -17,11 +14,11 @@ eleventyNavigation:
 I am currently a full time enginner and full time student, working through the BCS Level 4 Software Enineering Apprenticeship.</p>
 </section>
 
-<section class="neonSection">
+{# <section class="neonSection">
 <p class="neon">
 Welcome
 </p>
-</section> 
+</section>  #}
 
 <section class="homePageAnchorLinks">
 <ul class="squaresContainer">
@@ -60,3 +57,4 @@ Welcome
 {% include "postslist.njk" %}
 
 <p>More posts can be found in <a href="{{ '/resources/' | url }}">the resources section</a>.</p>
+

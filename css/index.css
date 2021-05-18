@@ -194,7 +194,7 @@ code {
 
 /*Landing Page */
 .landingHead{
-  height: 30vh; 
+  /* height: 30vh;  */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -227,7 +227,7 @@ code {
 }
 
 .intro{
-  height: 30vh;
+  /* height: 30vh; */
   margin-top: 125px;
   display: flex;
   justify-content: center;
