@@ -372,6 +372,12 @@ a[href].post-tag:focus {
   margin: 0;
 }
 
+/*Markdown*/
+
+.markDowns{
+  margin-left: 500px;
+}
+
 /* Direct Links / Markdown Headers */
 .direct-link {
   font-family: sans-serif;

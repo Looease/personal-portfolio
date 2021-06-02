@@ -5,4 +5,36 @@ eleventyNavigation:
   order: 4
   
 ---
-Projects
+<h1>Software Development Projects</h1>
+
+
+<section class="squaresContainer">
+
+{# <section class="homePageAnchorLinks"> #}
+{# <ul class="squaresContainer">
+ {% set maxPosts = collections.projects.length | min(3) %}  #}
+{# <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1> #}
+
+ {# {% set projectlist = collections.project | head(-3) %}
+ 
+{% set resourcelistCounter = collections.projects | length %}
+{% include "projectlist.njk" %}
+
+<p>More posts can be found in <a href="{{ '/resources/' | url }}">the resources section</a>.</p>
+#}
+
+<li class="square">
+<a href="/projects/kbl-solutions">
+<h2>KBL Solutions</h2>
+<img src="img/landing/5.jpeg">
+</a>
+</li>
+<li class="square">
+<a href="/projects/museum-meltdown">
+<h2>Museum Meltdown</h2>
+<img src="img/landing/2.jpeg"></img>
+</a>
+</li>
+
+</ul>
+</section>  

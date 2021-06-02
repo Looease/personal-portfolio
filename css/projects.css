@@ -1,0 +1,109 @@
+#kblSolutionsBody{
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(rgba(191, 191, 191, 0.2),rgba(191, 191, 191, 0.2)),
+     url("img/morph/1.png");
+     background-repeat: repeat;
+     background-color: #FDECAF;
+    /* background-color: #FEF0A9; */
+    /* background-color: #FCF5B1; */
+  }
+  .kblMain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .kblBanner{
+    padding: 0px 0px 0px 0px;
+    margin: 20vh 10% 5px 10%;
+    width: 80%;
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1em;
+  }
+  #black{
+    color: black;
+    cursor: pointer;
+  }
+  #hyperlink{
+   cursor: pointer;
+   color:  #0000EE;
+  }
+  
+  .kblBanner a img{
+    margin-top: 10px;
+  }
+  .kblContent{
+    padding: 0px 0px 0px 0px;
+    margin: 5px 5px 5px 5px;
+    width: 100%;
+    background-color: #EBEBEB;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 0px;
+  }
+  #container {
+    margin: 3px;
+    position: relative;
+    width: 30%;
+    max-height: 500px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  #image {
+    display: block;
+    max-width: 100%;
+    max-height: 500px;
+    border-radius: 20px;
+  
+  }
+  #overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 500px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000;
+    border-radius: 20px;
+  }
+  #container:hover #overlay {
+    opacity: 1;
+  }
+  #text {
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
