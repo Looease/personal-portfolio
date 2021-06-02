@@ -183,29 +183,30 @@ code {
   /* justify-content: space-betwe; */
 }
 .landingTitle{
-  font-size: 4em;
+  font-size: 5em;
   margin: 0px;
   color: var(--duck);
   text-transform: uppercase;
   font-weight: 600;
 }
 .landingSubTitle{
-  font-size: 2.5em;
+  font-size: 3em;
   margin: 0px;
   color: var(--duck);
 }
 
 .me{
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   border-radius: 100%;
   /* margin-left: 50%; */
 }
 
 .intro{
-  height: 35vh;
+  height: 25vh;
   /* margin-top: 50px; */
   margin-bottom: 50px; 
+  font-size: 1.5em;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -305,16 +306,17 @@ code {
   list-style: none;
   margin-left: 10px;
   margin-right: 10px;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   cursor: pointer;
   position: relative;
   text-align: center;
+  text-decoration: none;
   /* background-color: var(--duck); */
 }
 .square img{
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   object-fit: contain;
   /* filter: grayscale(100%); */
 }
@@ -323,7 +325,7 @@ code {
   display: inline-flex;
   width: 100%;
   list-style: none;
-  height: 50vh;
+  height: 40vh;
   border-bottom: 1px dashed var(--lightgray);
 }
 
@@ -331,6 +333,7 @@ code {
 .blog{
  margin-left: 20px;
  margin-right: 20px;
+ padding: 10px;
 }
 
 /* Tags */
