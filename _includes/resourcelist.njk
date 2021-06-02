@@ -1,0 +1,16 @@
+<h1>Resources for getting into Software Engineering</h1>
+
+<p>I've listed out all the resources I used to change career as a Software Engineer </p>
+
+<ol reversed class="postlist" style="counter-reset: start-from {{ (resourcelistCounter or resourcelist.length) + 1 }}">
+{% for resource in resourcelist | reverse %}
+  <li class="postlist-item{% if resource.url == url %} resourcelist-item-active{% endif %}">
+    <a href="{{ resource.url | url }}" class="postlist-link">{% if resource.data.title %}{{ resource.data.title }}{% else %}<code>{{ resource.url }}</code>{% endif %}</a>
+    {# <time class="postlist-date" datetime="{{ resource.date | htmlDateString }}">{{ resource.date | readableDate }}</time> #}
+    {# {% for tag in resource.data.tags | filterTagList %}
+      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+    {% endfor %} #}
+  </li>
+{% endfor %}
+</ol>

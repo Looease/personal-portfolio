@@ -9,6 +9,8 @@ pagination:
     - post
     - posts
     - tagList
+    - resource
+    - project
   addAllPagesToCollections: true
 layout: layouts/home.njk
 eleventyComputed:
@@ -19,5 +21,6 @@ permalink: /tags/{{ tag | slug }}/
 
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
-
+{% include "resourcelist.njk" %}
+{% include "projectlist.njk" %}
 <p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>

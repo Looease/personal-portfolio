@@ -2,7 +2,7 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<section>
+<section class="blog">
 <h2>{{ title }}</h2>
 
 <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
@@ -13,8 +13,8 @@ templateClass: tmpl-post
 
 {{ content | safe }}
 
-{%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-{%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+{%- set nextPost = collections.resource | getNextCollectionItem(page) %}
+{%- set previousPost = collections.resource | getPreviousCollectionItem(page) %}
 {%- if nextPost or previousPost %}
 <hr>
 <ul>

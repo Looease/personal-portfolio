@@ -46,14 +46,6 @@ main {
 main :first-child {
   margin-top: 0;
 }
-header {
-  border-bottom: 1px dashed var(--lightgray);
-}
-header:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 table {
   margin: 1em 0;
 }
@@ -131,24 +123,6 @@ code {
   text-decoration: none;
 }
 
-/* Nav */
-.nav {
-  padding: 0;
-  list-style: none;
-  float: left;
-  margin-left: 1em;
-}
-.nav-item {
-  display: inline-block;
-  margin-right: 1em;
-}
-.nav-item a[href]:not(:hover) {
-  text-decoration: none;
-}
-.nav-item-active {
-  font-weight: 700;
-  text-decoration: underline;
-}
 
 /* Posts list */
 .postlist {
@@ -163,11 +137,12 @@ code {
   line-height: 1.8;
 }
 .postlist-item:before {
-  display: inline-block;
+  display: none;
+  /* display: inline-block;
   pointer-events: none;
   content: "" counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
-  text-align: right;
+  text-align: right; */
 }
 .postlist-date,
 .postlist-item:before {
@@ -178,6 +153,7 @@ code {
   word-spacing: -0.5px;
 }
 .postlist-link {
+  text-align: center;
   padding-left: .25em;
   padding-right: .25em;
   text-underline-position: from-font;
@@ -227,12 +203,14 @@ code {
 }
 
 .intro{
-  /* height: 30vh; */
-  margin-top: 125px;
+  height: 35vh;
+  /* margin-top: 50px; */
+  margin-bottom: 50px; 
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
+  border-bottom: 1px dashed var(--lightgray);
 }
 
 /* Neon Header */
@@ -317,6 +295,8 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  height: 50vh;
 }
 /* .squaresContainer li{
   text-decoration: none;
@@ -336,9 +316,23 @@ code {
   width: 250px;
   height: 250px;
   object-fit: contain;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
+.content{
+  display: inline-flex;
+  width: 100%;
+  list-style: none;
+  height: 50vh;
+  border-bottom: 1px dashed var(--lightgray);
+}
+
+/*Blog*/
+/* .blog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
 
 /* Tags */
 .post-tag {

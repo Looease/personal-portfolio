@@ -6,11 +6,14 @@ eleventyNavigation:
 ---
 
 <section class="landingHead">
-<p class="landingTitle">Louise {{typewriter}}</p>
+<div>
+<p class="landingTitle">Louise Learns{{typewriter}}</p>
+<p class="landingSubTitle">Follow me as I learn to code</p>
+</div>
  <img src="img/landing/25461.jpg" class="me"></img> 
 </section>
 <section class="intro">
-<p>Junior Software Engineer certified in JavaScript. 
+<p>Join me on my journey as a Junior Software Engineer. 
 I am currently a full time enginner and full time student, working through the BCS Level 4 Software Enineering Apprenticeship.</p>
 </section>
 
@@ -20,41 +23,70 @@ Welcome
 </p>
 </section>  #}
 
-<section class="homePageAnchorLinks">
-<ul class="squaresContainer">
+
+<ul class="content"> 
+<li class="blog">
+ {% set maxPosts = collections.posts.length | min(4) %}
+{# <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1> #}
+
+{% set postslist = collections.posts | head(-4) %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+
+<p>More posts can be found in <a href="{{ '/resources/' | url }}">the apprenticeship section</a>.</p>
+</li>
+
+ <li class="blog">
+ {% set maxPosts = collections.resource.length | min(4) %} 
+{# <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1> #}
+
+ {% set resourcelist = collections.resource | head(-4) %}
+ 
+{% set resourcelistCounter = collections.resources | length %}
+{% include "resourcelist.njk" %}
+
+<p>More posts can be found in <a href="{{ '/apprenticeship/' | url }}">the resources section</a>.</p>
+</li> 
+
+</ul>
+
+<section class="squaresContainer">
+
+{# <section class="homePageAnchorLinks"> #}
+{# <ul class="squaresContainer">
+ {% set maxPosts = collections.projects.length | min(3) %}  #}
+{# <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1> #}
+
+ {# {% set projectlist = collections.project | head(-3) %}
+ 
+{% set resourcelistCounter = collections.projects | length %}
+{% include "projectlist.njk" %}
+
+<p>More posts can be found in <a href="{{ '/resources/' | url }}">the resources section</a>.</p>
+#}
 
 <li class="square">
+<h2>Projects</h2>
+<a>
 <img src="img/landing/5.jpeg">
-<a>Projects</a>
+</a>
 </li>
 
 <li class="square">
+<h2>News</h2>
 <a>
 <img src="img/landing/4.jpeg"></img>
 </a>
 </li>
 
 <li class="square">
+<h2>Hobbies</h2>
 <a>
 <img src="img/landing/2.jpeg"></img>
 </a>
 </li>
 
-<li class="square">
-<a>
-<img src="img/landing/3.jpeg"></img>
-</a>
-</li>
-
 </ul>
-</section>
+</section>   
 
- {% set maxPosts = collections.posts.length | min(3) %}
-{# <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1> #}
-
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
-
-<p>More posts can be found in <a href="{{ '/resources/' | url }}">the resources section</a>.</p>
 
