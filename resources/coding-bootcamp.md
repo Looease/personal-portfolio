@@ -5,7 +5,6 @@ description: Available coding bootcamps.
 tags:
   resource 
 layout: layouts/post.njk
-permalink: resources/codingbootcamps
 ---
 
 

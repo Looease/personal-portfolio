@@ -27,9 +27,9 @@ p:last-child {
 }
 p,
 .tmpl-post li,
-img {
-  max-width: 37.5em; /* 600px /16 */
-}
+/* img {
+  max-width: 37em; /* 600px /16 
+} */
 p,
 .tmpl-post li {
   line-height: 1.45;
@@ -214,6 +214,10 @@ code {
   border-bottom: 1px dashed var(--lightgray);
 }
 
+.blurb{
+  max-width: 37em;
+}
+
 /* Neon Header */
 
 .neonSection{
@@ -297,7 +301,7 @@ code {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 60vh;
 }
 /* .squaresContainer li{
   text-decoration: none;
@@ -323,9 +327,10 @@ code {
 
 .content{
   display: inline-flex;
+  
   width: 100%;
   list-style: none;
-  height: 40vh;
+  height: 50vh;
   border-bottom: 1px dashed var(--lightgray);
 }
 
@@ -373,10 +378,22 @@ a[href].post-tag:focus {
 }
 
 /*Markdown*/
-
-.markDowns{
-  margin-left: 500px;
+.posts{
+  height: 100%;
 }
+
+/* .markDowns{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+/* .markDowns p{
+  text-align: center;
+} */
+
 
 /* Direct Links / Markdown Headers */
 .direct-link {

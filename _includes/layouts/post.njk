@@ -2,15 +2,15 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<main class="markDowns">
+<main class="posts">
+<ul class="markDowns">
 <h2>{{ title }}</h2>
 
-<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-{%- for tag in tags | filterTagList -%}
-{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+{# <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> #}
+{# {%- for tag in tags | filterTagList -%} #}
+{# {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
 <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{%- endfor %}
-
+{%- endfor %} #}
 {{ content | safe }}
 
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
@@ -22,5 +22,5 @@ templateClass: tmpl-post
   {%- if previousPost %}<li>Previous: <a href="{{ previousPost.url | url }}">{{ previousPost.data.title }}</a></li>{% endif %}
 </ul>
 {%- endif %}
-</section>
+</ul>
 </main>

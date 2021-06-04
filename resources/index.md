@@ -1,23 +1,30 @@
 ---
-title: Overview .
+title: Resources for becoming a Software Engineer
 description: My overview.
 date: 2021-05-29
 tags:
   - Apprenticeship
 layout: layouts/post.njk
-eleventyExcludeFromCollections: true
+eleventyNavigation:
+  key: Resources
+  order: 4
+# eleventyExcludeFromCollections: true
 
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit fermentum sodales. Nunc rhoncus, justo nec ornare sodales, urna massa dignissim tortor, et feugiat justo mi vel felis. Cras lobortis vehicula purus, sit amet scelerisque enim varius vel. Aenean maximus neque at vulputate ultricies. Etiam ex urna, sodales at venenatis in, luctus sed risus. Nam nisi est, congue rhoncus massa et, convallis mollis dui. Praesent eget neque non ex tristique facilisis. Aliquam erat volutpat. Vestibulum fringilla, mi in faucibus interdum, ante quam aliquam lectus, ut semper enim nisl id risus. Sed at massa a ante cursus convallis.
+Learning to code is the best decision I have ever made. Software Engineering is a whole world in itself with endless opportunities to learn and create. The work in business is interesting and diverse. It is rare that you will do the same thing every day. 
+
+Becoming a software engineer is not as difficult as it seems. This section covers how I got started in software engineering and went on to find a job at an amazing company. 
+
+## Below are some of my thoughts and experiences in becoming a Software Engineer
+
+ - <a href="/resources/getting-started/"></a>Getting Started</li>
+ - <a href="/resources/coding-bootcamp/">Coding Bootcamps</a></li>
+ - <a href="/resources/getting-employed/"></a>Finding your first job</li>
 
 
+ 
 
-## Section Header
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit fermentum sodales. Nunc rhoncus, justo nec ornare sodales, urna massa dignissim tortor, et feugiat justo mi vel felis. Cras lobortis vehicula purus, sit amet scelerisque enim varius vel. Aenean maximus neque at vulputate ultricies. Etiam ex urna, sodales at venenatis in, luctus sed risus. Nam nisi est, congue rhoncus massa et, convallis mollis dui. Praesent eget neque non ex tristique facilisis. Aliquam erat volutpat. Vestibulum fringilla, mi in faucibus interdum, ante quam aliquam lectus, ut semper enim nisl id risus. Sed at massa a ante cursus convallis.
-
-
-
+<!-- 
 ``` text/2-3
 // this is a command
 function myCommand() {
@@ -27,4 +34,4 @@ function myCommand() {
 
 // Test with a line break above this line.
 console.log('Test');
-```
+``` -->
