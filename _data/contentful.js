@@ -24,7 +24,9 @@ const client = contentful.createClient({
   
 
 module.exports = async () => {
-    return client.getEntries({ content_type: 'project', order: 'sys.createdAt' }).then(function(response) {
+    console.log("Louise")
+    return client.getEntries({ content_type: 'projects', order: 'sys.createdAt' }).then(function(response) {
+            console.log(response);
             const page = response.items
                 .map(function(page) {
                     page.fields.date= new Date(page.sys.updatedAt);

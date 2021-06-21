@@ -153,7 +153,7 @@ code {
   word-spacing: -0.5px;
 }
 .postlist-link {
-  text-align: center;
+  /*text-align: center;*/
   padding-left: .25em;
   padding-right: .25em;
   text-underline-position: from-font;
@@ -327,7 +327,6 @@ code {
 
 .content{
   display: inline-flex;
-  
   width: 100%;
   list-style: none;
   height: 50vh;
@@ -412,3 +411,133 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+
+
+@media screen and (max-width: 915px){
+  .me{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    /* margin-left: 50%; */
+  }
+  .landingTitle{
+    font-size: 3em;
+    margin: 0px;
+    color: var(--duck);
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .landingSubTitle{
+    font-size: 2em;
+    margin: 0px;
+    color: var(--duck);
+  }
+  .intro{
+    height: 15vh;
+    /* margin-top: 50px; */
+    margin-bottom: 50px; 
+    font-size: 1em;
+  }
+  .content{
+    display: flex;
+    flex-direction:column ;
+    width: 100%;
+    height: 130vh;
+    margin: 20px;
+  }
+  .blog{
+    margin: 40px;
+  }
+  .squaresContainer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    width: 100%;
+    height: 145vh;
+  }
+  .square{
+    margin: 50px;
+    width: 250px;
+    height: 250px;
+  }
+  .square img{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    /* filter: grayscale(100%); */
+  }
+};
+@media screen and (max-width: 600px){
+  .me{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    /* margin-left: 50%; */
+  }
+  .landingTitle{
+    font-size: 2em;
+    margin: 0px;
+    color: var(--duck);
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .landingSubTitle{
+    font-size: 3em;
+    margin: 0px;
+    color: var(--duck);
+  }
+  .content{
+    height: 120vh;
+  }
+  .blog{
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 415px){
+  .landingTitle{
+    font-size: 1.5em;
+  }
+  .landingSubTitle{
+    font-size: 1em;
+  }
+  .me{
+    width: 150px;
+    height: 150px;
+  }
+  .intro{
+    height: 15vh;
+    font-size: 0.75em;
+  }
+  .content{
+    display: flex;
+    flex-direction:column;
+    margin: 0px;
+    padding: 10px;
+    width: 100%;
+    height: 140vh;
+  }
+  .blog{
+    margin: 10px;
+  }
+  .squaresContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 130vh;
+    padding: 0px;
+  }
+  .square{
+    margin: 50px;
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+  }
+  .square img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    /* filter: grayscale(100%); */
+  }
+};
+ 

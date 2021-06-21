@@ -3,6 +3,10 @@ layout: layouts/home.njk
 eleventyNavigation:
   key: Home
   order: 1
+pagination:
+  data: contentful
+  size: 1
+  alias: page
 ---
 
 <section class="landingHead">
@@ -50,7 +54,7 @@ Welcome
 
 </ul>
 
-<section class="squaresContainer">
+<ul class="squaresContainer">
 
 {# <section class="homePageAnchorLinks"> #}
 {# <ul class="squaresContainer">
@@ -89,4 +93,4 @@ Welcome
 </ul>
 </section>   
 
-{{contentful}}
+{{page.images}}
