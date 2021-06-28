@@ -7,8 +7,6 @@
   --white: #fff;
   --duck: #AECDD2;
 }
-
-
   header{
     display: inline-flex;
     justify-content: space-between;

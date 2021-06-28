@@ -6,8 +6,8 @@ tags:
   - Apprenticeship
 layout: layouts/post.njk
 eleventyNavigation:
-  key: Resources
-  order: 4
+  key: Learning
+  order: 1
 # eleventyExcludeFromCollections: true
 
 ---

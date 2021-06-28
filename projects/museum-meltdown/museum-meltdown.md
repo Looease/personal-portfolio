@@ -25,55 +25,55 @@ tag:
           <div class="kblWrap">
           </div>
           <div id="container">
-          <img src="img/accessibility/17.jpg" alt="Avatar" id="image">
+          <img src="/img/accessibility/17.jpg" alt="Avatar" id="image">
           <div id="overlay">
             <div id="text">Informative homepage</div>
           </div>
          </div>
          <div id="container">
-         <img src="img/accessibility/18.jpg" alt="Avatar" id="image">
+         <img src="/img/accessibility/18.jpg" alt="Avatar" id="image">
          <div id="overlay">
            <div id="text">Javascript event listeners</div>
          </div>
         </div>
        <div id="container">
-       <img src="img/accessibility/19.jpg" alt="Avatar" id="image">
+       <img src="/img/accessibility/19.jpg" alt="Avatar" id="image">
        <div id="overlay">
          <div id="text">Pop ups when hitting an obstacle</div>
        </div>
       </div>
       <div id="container">
-      <img src="img/accessibility/20.jpg" alt="Avatar" id="image">
+      <img src="/img/accessibility/20.jpg" alt="Avatar" id="image">
       <div id="overlay">
         <div id="text">Museum style design</div>
       </div>
      </div>
      <div id="container">
-     <img src="img/accessibility/21.jpg" alt="Avatar" id="image">
+     <img src="/img/accessibility/21.jpg" alt="Avatar" id="image">
      <div id="overlay">
        <div id="text">Resources for support</div>
      </div>
      </div>
      <div id="container">
-     <img src="img/accessibility/23.jpg" alt="Avatar" id="image">
+     <img src="/img/accessibility/23.jpg" alt="Avatar" id="image">
      <div id="overlay">
        <div id="text">Early pic- Animating the Canvas</div>
      </div>
      </div>
      <div id="container">
-     <img src="img/accessibility/22.jpg" alt="Avatar" id="image">
+     <img src="/img/accessibility/22.jpg" alt="Avatar" id="image">
      <div id="overlay">
        <div id="text">Detailed research</div>
      </div>
      </div>
      <div id="container">
-     <img src="img/accessibility/25.jpg" alt="Avatar" id="image">
+     <img src="/img/accessibility/25.jpg" alt="Avatar" id="image">
      <div id="overlay">
        <div id="text">Early designs on Marvel</div>
      </div>
      </div>
      <div id="container">
-     <img src="img/accessibility/27.jpg" alt="Avatar" id="image">
+     <img src="/img/accessibility/27.jpg" alt="Avatar" id="image">
      <div id="overlay">
        <div id="text">The vision and plan</div>
      </div>

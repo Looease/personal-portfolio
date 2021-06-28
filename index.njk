@@ -1,17 +1,18 @@
 ---
 layout: layouts/home.njk
-eleventyNavigation:
-  key: Home
-  order: 1
 pagination:
   data: contentful
   size: 1
   alias: page
 ---
 
+{# eleventyNavigation:
+  key: Home
+  order: 1 #}
+
 <section class="landingHead">
 <div>
-<p class="landingTitle">Louise Learns{{typewriter}}</p>
+<h2 class="landingTitle">Louise Learns{{typewriter}}</h2>
 <p class="landingSubTitle">Follow me as I learn to code</p>
 </div>
  <img src="img/landing/25461.jpg" class="me"></img> 
@@ -93,4 +94,4 @@ Welcome
 </ul>
 </section>   
 
-{{page.images}}
+{# {{page.images}} #}

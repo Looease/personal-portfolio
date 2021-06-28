@@ -310,8 +310,8 @@ code {
   list-style: none;
   margin-left: 10px;
   margin-right: 10px;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   cursor: pointer;
   position: relative;
   text-align: center;
@@ -319,8 +319,8 @@ code {
   /* background-color: var(--duck); */
 }
 .square img{
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   object-fit: contain;
   /* filter: grayscale(100%); */
 }
@@ -413,6 +413,19 @@ a[href].direct-link:focus:visited,
 }
 
 
+@media screen and (max-width: 1300px){
+    .square{
+      margin: 50px;
+      width: 300px;
+      height: 300px;
+    }
+    .square img{
+      width: 300px;
+      height: 300px;
+      object-fit: contain;
+      /* filter: grayscale(100%); */
+    }
+}
 @media screen and (max-width: 915px){
   .me{
     width: 250px;
@@ -526,18 +539,6 @@ a[href].direct-link:focus:visited,
     width: 100%;
     height: 130vh;
     padding: 0px;
-  }
-  .square{
-    margin: 50px;
-    padding: 0px;
-    width: 200px;
-    height: 200px;
-  }
-  .square img{
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
-    /* filter: grayscale(100%); */
   }
 };
  
