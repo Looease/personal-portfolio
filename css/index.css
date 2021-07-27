@@ -12,6 +12,8 @@
 /* Global stylesheet */
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
+
 }
 
 html,
@@ -391,6 +393,41 @@ a[href].direct-link:focus:visited,
     /* filter: grayscale(100%); */
   }
 };
+
+/*Form*/
+.formContainer{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+}
+form{
+  border: solid 2px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 33%;
+  border-radius: 30px;
+}
+form input{
+  width: 40vh;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+form textarea{
+  padding: 0px;
+  width: 40vh;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
 @media screen and (max-width: 600px){
   .me{
     width: 150px;
@@ -415,6 +452,17 @@ a[href].direct-link:focus:visited,
   }
   .blog{
     margin: 10px;
+  }
+  form{
+    width: 100%;
+  }
+  form input{
+    width: 250px;
+    height: 30px;
+  }
+  form textarea{
+    width: 250px;
+    height: 100px;
   }
 }
 
