@@ -1,9 +1,9 @@
 ---
 title: Coding Bootcamps.
-description: Available coding bootcamps.
+description: So are coding bootcamps worth it? In short, yes. I believe coding bootcamps are essential to make a career change into software engineering if you have been working for few years. If you are at the very beginning of your career, this may not apply. 
 # date: 2018-07-04
 tags:
-  resource 
+  resource
 layout: layouts/post.njk
 ---
 
@@ -15,13 +15,14 @@ I believe coding bootcamps are essential to make a career change into software e
 
 There are of bootcamps out there that suit all timelines and budgets - it's up to you what you want to get from it. 
 
-Courses are run by <a>Makers Academy</a>, <a>General Assembly</a>, <a>Founders and Coders</a> and <a>Code First Girls</a>, to name a few. 
+Courses are run by <a href="https://makers.tech/">Makers Academy</a>, <a href="https://generalassemb.ly/">General Assembly</a>, <a href="https://www.foundersandcoders.com/">Founders and Coders</a> (this ones free), <a href="https://www.blackgirlscode.com/">Black Girls Code </a> and <a href="https://codefirstgirls.org.uk/">Code First Girls </a> (this ones also free) to name a few. 
 
-I chose <a>23 Code Street</a> as I liked their mission to level the gender playing field in tech and, it was only two evenings a week.
+I chose <a href="https://www.23codestreet.com/">23 Code Street</a> as I liked their mission to level the gender playing field in tech and, it was only two evenings a week.
+
+The bootcamp worked as follows: 
 
 -  We did small HTML and CSS projects initially. I appreciated the support and ability to discuss code. 
 -  We had a slack chanel for support outside of lesson time. 
--  A great resource I got here was Flexbox Froggy - a game which actually makes learning Flexbox fun. There are a lot of games out there to help learn to code which I found useful.
 -  We were taught by software engineers and did daily projects using what we had learned.
 -  It was definitely necesseray to practice outside of the lesson time to keep up. The course I did with Udemy was really useful and another fantastic source is Youtube. There are thousands of tutorials and ideas on there.
 -  We then moved onto Javascript using the HTML Canvas and created functions to create random patterns through to a basic version of Flappy Bird.
@@ -30,10 +31,12 @@ I chose <a>23 Code Street</a> as I liked their mission to level the gender playi
 
 To be honest, the bootcamp was very basic and a substantial amount of personal learning was required. The best part about the bootcamp was the final group project I made that gave me something to put on my CV and talk about in detail in job interviews. 
 
+If you have more questions on 23 Code Street, <a href="/contact">get in touch</a>
 
 
 
 
+<!-- 
 ``` text/2-3
 // this is a command
 function myCommand() {
@@ -43,4 +46,4 @@ function myCommand() {
 
 // Test with a line break above this line.
 console.log('Test');
-```
+``` -->

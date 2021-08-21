@@ -1,12 +1,14 @@
 ---
 layout: layouts/post.njk
-title: Contact
 templateClass: tmpl-post
 eleventyNavigation:
   key: Contact
   order: 2
 ---
+<section class="form-section">
 <form action="https://formspree.io/mpzyleon" method="POST">
+        <br>
+        <p>Please fill out the form below and I will get back to you. </p>
           <br>
           <label>
             Your Name:
@@ -25,3 +27,4 @@ eleventyNavigation:
           <button type="submit" class="button">Send</button>
             <h1 class="thanks">Thank you!</h1>
           </form>
+</section>

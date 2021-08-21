@@ -124,14 +124,13 @@ code {
 .home :link:not(:hover) {
   text-decoration: none;
 }
-
-
 /* Posts list */
 .postlist {
   list-style: none;
   padding: 0;
 }
 .postlist-item {
+  margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -162,6 +161,10 @@ code {
 .tmpl-home .postlist-link {
   font-size: 1.1875em; /* 19px /16 */
   font-weight: 700;
+}
+.description{
+  margin-bottom: 10px;
+  font-size:1em;
 }
 
 /*Landing Page */
@@ -212,17 +215,17 @@ code {
 
 /* Squares */
 
-.squaresContainer{
+/* .squaresContainer{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 60vh;
-}
+} */
 /* .squaresContainer li{
   text-decoration: none;
 } */
-.square{
+/* .square{
   list-style: none;
   margin-left: 10px;
   margin-right: 10px;
@@ -232,8 +235,8 @@ code {
   position: relative;
   text-align: center;
   text-decoration: none;
-  /* background-color: var(--duck); */
-}
+  /* background-color: var(--duck);
+} */
 .square img{
   width: 400px;
   height: 400px;
@@ -241,19 +244,40 @@ code {
   /* filter: grayscale(100%); */
 }
 
-.content{
+
+/*Blog Section*/
+.blog-section-container{
+  padding-left: 15%;
+  padding-right: 15%;
   display: inline-flex;
   width: 100%;
   list-style: none;
-  height: 50vh;
+  height: 60vh;
   border-bottom: 1px dashed var(--lightgray);
 }
-
-/*Blog*/
+.blog-content{
+  width: 1000px;
+  overflow: scroll;
+}
 .blog{
  margin-left: 20px;
  margin-right: 20px;
- padding: 10px;
+}
+
+.apprentice-section{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: flex-end
+}
+.tag-section h1{
+  display: flex;
+  justify-content: flex-end;
+}
+.apprentice-blog{
+  width: 80%;
 }
 
 /* Tags */
@@ -327,9 +351,18 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
-
+/*Contact*/
+.form-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media screen and (max-width: 1300px){
+  .blog-section-container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
     .square{
       margin: 50px;
       width: 300px;
@@ -341,7 +374,7 @@ a[href].direct-link:focus:visited,
       object-fit: contain;
     }
 }
-@media screen and (max-width: 915px){
+@media screen and (max-width: 975px){
   .me{
     width: 250px;
     height: 250px;
@@ -364,17 +397,36 @@ a[href].direct-link:focus:visited,
     margin-bottom: 50px; 
     font-size: 1em;
   }
-  .content{
+  .blog-section-container{
     display: flex;
     flex-direction:column ;
     width: 100%;
-    height: 130vh;
-    margin: 20px;
+    height: 160vh;
   }
-  .blog{
+  .blog-content{
+    overflow: auto;
+    height: 60vh;
+  }
+  .postlist-item{
+    width: 60%;    
+  }
+  .apprentice-section{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.tag-section{
+  display: flex;
+  justify-self: flex-start;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  align-items: baseline;
+}
+  /* .blog{
     margin: 40px;
-  }
-  .squaresContainer{
+  } */
+  /* .squaresContainer{
     display: flex;
     flex-direction: column;
     padding-top: 100px;
@@ -390,8 +442,8 @@ a[href].direct-link:focus:visited,
     width: 250px;
     height: 250px;
     object-fit: contain;
-    /* filter: grayscale(100%); */
-  }
+    /* filter: grayscale(100%); 
+  } */
 };
 
 /*Form*/
@@ -418,37 +470,41 @@ form input{
   display: flex;
   flex-direction: column;
 }
-form textarea{
+textarea{
   padding: 0px;
   width: 40vh;
-  height: 30px;
+  margin-bottom: 10px;
+  height: 100px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
   .me{
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 100%;
-    /* margin-left: 50%; */
   }
   .landingTitle{
-    font-size: 2em;
-    margin: 0px;
+    font-size: 1.4em;
     color: var(--duck);
     text-transform: uppercase;
-    font-weight: 600;
   }
   .landingSubTitle{
-    font-size: 3em;
-    margin: 0px;
+    font-size: 1em;
+    margin-bottom: 10px;
     color: var(--duck);
   }
-  .content{
+  .blurb{
+    font-size: 13px;
+  }
+  .blog-section-container{
     height: 120vh;
+  }
+  .blog-content{
+    height: 200vh;
   }
   .blog{
     margin: 10px;
@@ -481,7 +537,7 @@ form textarea{
     height: 15vh;
     font-size: 0.75em;
   }
-  .content{
+  .blog-section-container{
     display: flex;
     flex-direction:column;
     margin: 0px;
@@ -500,4 +556,3 @@ form textarea{
     padding: 0px;
   }
 };
- 

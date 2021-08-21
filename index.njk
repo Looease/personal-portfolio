@@ -26,21 +26,10 @@ Welcome
 </p>
 </section>  #}
 
-
-<ul class="content"> 
-<li class="blog">
- {% set maxPosts = collections.posts.length | min(4) %}
-{# <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1> #}
-
-{% set postslist = collections.posts | head(-4) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
-
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the apprenticeship section</a>.</p>
-</li>
-
+<main class="blog-section-container">
+<section class="blog-content">
  <li class="blog">
- {% set maxPosts = collections.resource.length | min(4) %} 
+ {% set maxPosts = collections.resource.length | min(6) %} 
 {# <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1> #}
 
  {% set resourcelist = collections.resource | head(-4) %}
@@ -50,6 +39,30 @@ Welcome
 
 <p>More posts can be found in <a href="{{ '/resources/' | url }}">the resources section</a>.</p>
 </li> 
+</section>
 
-</ul>
+<section class="apprentice-section">
+<section class="tag-section">
+<h1>Popular Categories</h1>
+{% for tag in collections.tagList | filterTagList %}
+  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+{% endfor %}
+</section>
+<li class="apprentice-blog">
+ {% set maxPosts = collections.posts.length | min(4) %}
+{# <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1> #}
 
+{% set postslist = collections.posts | head(-4) %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+
+<p>More posts can be found in <a href="{{ '/posts/' | url }}">the apprenticeship section</a>.</p>
+</li>
+</section>
+
+
+
+
+
+</main>

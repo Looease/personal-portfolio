@@ -1,9 +1,10 @@
 ---
-title: Resources for becoming a Software Engineer
+title: Beginning your journey
 description: My overview.
 date: 2021-05-29
-tags:
-  - Apprenticeship
+# tags:
+#   - Apprenticeship
+#   - Learning
 layout: layouts/post.njk
 eleventyNavigation:
   key: Learning
@@ -18,7 +19,9 @@ Becoming a software engineer is not as difficult as it seems. This section cover
 ## Below are some of my thoughts and experiences in becoming a Software Engineer
 
  - <a href="/resources/getting-started/"></a>Getting Started</li>
+
  - <a href="/resources/coding-bootcamp/">Coding Bootcamps</a></li>
+
  - <a href="/resources/getting-employed/"></a>Finding your first job</li>
 
 
