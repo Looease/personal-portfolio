@@ -6,7 +6,6 @@ tags:
   resource
 layout: layouts/post.njk
 ---
-
 So are coding bootcamps worth it?
 
 In short, yes. 
@@ -32,6 +31,7 @@ The bootcamp worked as follows:
 To be honest, the bootcamp was very basic and a substantial amount of personal learning was required. The best part about the bootcamp was the final group project I made that gave me something to put on my CV and talk about in detail in job interviews. 
 
 If you have more questions on 23 Code Street, <a href="/contact">get in touch</a>
+
 
 
 

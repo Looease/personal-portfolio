@@ -3,12 +3,11 @@ title: Beginning your journey
 description: My overview.
 date: 2021-05-29
 # tags:
-#   - Apprenticeship
-#   - Learning
+#   - resource
 layout: layouts/post.njk
-eleventyNavigation:
-  key: Learning
-  order: 1
+# eleventyNavigation:
+#   key: Learning
+#   order: 1
 # eleventyExcludeFromCollections: true
 
 ---

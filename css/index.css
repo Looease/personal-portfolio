@@ -321,13 +321,14 @@ a[href].post-tag:focus {
   height: 100%;
 }
 
-/* .markDowns{
-  width: 100%;
-  text-align: center;
+.markDowns{
+  padding-left: 10%;
+  padding-right: 10%;
   display: flex;
-  justify-content: center;
+  /* justify-content: flex-start; */
+  /* align-items: center; */
   flex-direction: column;
-} */
+}
 
 /* .markDowns p{
   text-align: center;
@@ -352,11 +353,12 @@ a[href].direct-link:focus:visited,
   color: #aaa;
 }
 /*Contact*/
-.form-section{
+.center-container{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 @media screen and (max-width: 1300px){
   .blog-section-container{
@@ -372,6 +374,17 @@ a[href].direct-link:focus:visited,
       width: 300px;
       height: 300px;
       object-fit: contain;
+    }
+    form{
+      width: 100%;
+    }
+    form input{
+      width: 70%;
+      height: 30px;
+    }
+    form textarea{
+      width: 70%;
+      height: 100px;
     }
 }
 @media screen and (max-width: 975px){
@@ -508,17 +521,6 @@ textarea{
   }
   .blog{
     margin: 10px;
-  }
-  form{
-    width: 100%;
-  }
-  form input{
-    width: 250px;
-    height: 30px;
-  }
-  form textarea{
-    width: 250px;
-    height: 100px;
   }
 }
 
