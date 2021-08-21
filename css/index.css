@@ -534,7 +534,7 @@ textarea{
 }
 @media screen and (max-width: 615px){
   .blog-section-container{
-    height: 180vh;
+    height: 175vh;
   }
 };
 @media screen and (max-width: 415px){
@@ -558,7 +558,7 @@ textarea{
     margin: 0px;
     padding: 10px;
     width: 100%;
-    height: 190vh;
+    height: 185vh;
   }
   .blog{
     margin: 10px;
