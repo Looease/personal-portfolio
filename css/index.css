@@ -20,6 +20,9 @@ body {
   color: var(--darkgray); */
   background-color: var(--white);
 }
+.tmpl-post{
+  min-height:90vh;
+}
 p:last-child {
   margin-bottom: 0;
 }
@@ -195,7 +198,6 @@ code {
 
 .intro{
   height: 25vh;
-  /* margin-top: 50px; */
   margin-bottom: 50px; 
   font-size: 1.5em;
   display: flex;
@@ -208,39 +210,6 @@ code {
 .blurb{
   max-width: 37em;
 }
-
-/* Squares */
-
-/* .squaresContainer{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 60vh;
-} */
-/* .squaresContainer li{
-  text-decoration: none;
-} */
-/* .square{
-  list-style: none;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 400px;
-  height: 400px;
-  cursor: pointer;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  /* background-color: var(--duck);
-} */
-.square img{
-  width: 400px;
-  height: 400px;
-  object-fit: contain;
-  /* filter: grayscale(100%); */
-}
-
-
 /*Blog Section*/
 .blog-section-container{
   padding-left: 15%;
@@ -321,8 +290,6 @@ a[href].post-tag:focus {
   padding-left: 10%;
   padding-right: 10%;
   display: flex;
-  /* justify-content: flex-start; */
-  /* align-items: center; */
   flex-direction: column;
 }
 /* Direct Links / Markdown Headers */
@@ -397,7 +364,7 @@ a[href].direct-link:focus:visited,
   }
   .blog-content{
     overflow: hidden;
-    height: 80vh;
+    height: 90vh;
     width: fit-content;
   }
   .text-mobile{
@@ -409,7 +376,6 @@ a[href].direct-link:focus:visited,
   }
   .postlist-item{
     display: flex;
-    /* flex-direction: column     */
   }
   .apprentice-section{
   display: flex;
@@ -458,8 +424,6 @@ textarea{
   display: flex;
   flex-direction: column;
 }
-
-
 @media screen and (max-width: 700px){
   .me{
     width: 175px;
