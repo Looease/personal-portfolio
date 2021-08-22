@@ -360,7 +360,7 @@ a[href].direct-link:focus:visited,
     display: flex;
     flex-direction:column ;
     width: 100%;
-    height: 95vh;
+    height: 115vh;
   }
   .blog-content{
     overflow: hidden;
@@ -368,11 +368,11 @@ a[href].direct-link:focus:visited,
     width: fit-content;
   }
   .text-mobile{
-    font-size: 0.75em
+    font-size: 1em
   }
   .description{
     margin-bottom: 10px;
-    font-size: 0.75em
+    font-size: 1em
   }
   .postlist-item{
     display: flex;
@@ -386,7 +386,7 @@ a[href].direct-link:focus:visited,
   display: flex;
   justify-self: flex-start;
   flex-direction: column;
-  margin-top: 10px;
+  padding-top: 50px;
   margin-bottom: 30px;
   align-items: baseline;
 }
@@ -424,25 +424,25 @@ textarea{
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
   .me{
     width: 175px;
     height: 175px;
     border-radius: 100%;
   }
   .landingTitle{
-    font-size: 1.4em;
+    font-size: 1.7em;
     text-transform: uppercase;
   }
   .landingSubTitle{
-    font-size: 1em;
+    font-size: 1.2em;
     margin-bottom: 10px;
   }
   .blurb{
-    font-size: 13px;
+    font-size: 1em;
   }
   .blog-section-container{
-    height: 110vh;
+    height: 130vh;
   }
   .blog-content{
     height: 200vh;
@@ -453,7 +453,7 @@ textarea{
 }
 @media screen and (max-width: 615px){
   .blog-section-container{
-    height: 115vh;
+    height: 140vh;
   }
   .tmpl-home .postlist-link{
   font-size: 1em;

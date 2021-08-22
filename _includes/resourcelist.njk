@@ -2,6 +2,9 @@
 
 <p class="text-mobile">You can't learn to code is over night. It takes time and lots of repetition. I've listed out all the resources I used to change career as a Software Engineer as well as some tech I've learned along the way</p>
 
+  <p>More posts can be found in <a href="{{ '/resources/' | url }}">the resources section</a>.</p>
+
+
 <ol reversed class="postlist" style="counter-reset: start-from {{ (resourcelistCounter or resourcelist.length) + 1 }}">
 {% for resource in resourcelist | reverse %}
   <li class="postlist-item{% if resource.url == url %} resourcelist-item-active{% endif %}">
