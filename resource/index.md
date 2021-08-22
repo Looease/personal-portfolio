@@ -8,22 +8,24 @@ layout: layouts/post.njk
 # eleventyNavigation:
 #   key: Learning
 #   order: 1
-# eleventyExcludeFromCollections: true
+eleventyExcludeFromCollections: true
 
 ---
 Learning to code is the best decision I have ever made. Software Engineering is a whole world in itself with endless opportunities to learn and create. The work in business is interesting and diverse. It is rare that you will do the same thing every day. 
 
 Becoming a software engineer is not as difficult as it seems. This section covers how I got started in software engineering and went on to find a job at an amazing company. 
 
-## Below are some of my thoughts and experiences in becoming a Software Engineer
+## Below are resources for: 
 
- - <a href="/resources/getting-started/"></a>Getting Started</li>
-
- - <a href="/resources/coding-bootcamp/">Coding Bootcamps</a></li>
-
- - <a href="/resources/getting-employed/"></a>Finding your first job</li>
-
-
+  - Getting started - <a href="/resource/getting-started/"> click me </a>
+  <br>
+  - Choosing the right coding bootcamp - <a href="/resource/coding-bootcamp/"> click me</a>
+  <br>
+  - Finding your first job - <a href="/resource/getting-employed/"> click me</a>
+  <br>
+  - Final project for 23 Code street - <a href="[/resource/getting-employed/](https://looease.github.io/accessibility-project/p3.html?username=&password=)"> click me</a>
+<br>
+<img src="/img/33.jpeg"/>
  
 
 <!-- 

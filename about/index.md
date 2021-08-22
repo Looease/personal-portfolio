@@ -3,9 +3,9 @@
 description: My overview.
 date: 2021-05-29
 layout: layouts/post.njk
-eleventyNavigation:
-  key: About
-  order: 1
+# eleventyNavigation:
+#   key: About
+#   order: 1
 # eleventyExcludeFromCollections: true
 
 ---

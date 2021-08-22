@@ -6,14 +6,12 @@ tags:
   - Apprenticeship
 layout: layouts/post.njk
 ---
-I needed to complete the BCS Methodologies Exam for the BCS Software Engineer Apprenticeship. The preparation for this exam was useful in understanding how software teams and product development works in general. 
+I needed to complete the BCS Software Development Methodologies Exam for the BCS Software Engineer Apprenticeship. The preparation for this exam was useful in understanding how software teams and product development works in general. 
 
-- The purpose of the Software Development Life Cycle is to provide a set of steps to create a software end product. It’s just casual and NOT an explicit framework. 
+The purpose of the Software Development Life Cycle is to provide a set of steps to create a software end product. It’s just casual and not an explicit framework. The BCS methodologies exam prepares junior engineers on what to expect for the day to day workings of teams who build products. 
+  
+I found the information I gained extremely useful and it taught me about how to work in a software development team. 
 
-{% for tag in collections.tagList | filterTagList %}
-  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{% endfor %}
 
 <a href="{{ '/posts/firstpost/' | url }}">First post</a>
 <a href="{{ '/posts/thirdpost/' | url }}">Third post</a>

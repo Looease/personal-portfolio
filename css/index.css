@@ -16,8 +16,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  /* font-family: -apple-system, system-ui, sans-serif;
-  color: var(--darkgray); */
   background-color: var(--white);
 }
 .tmpl-post{
@@ -244,7 +242,9 @@ code {
 .apprentice-blog{
   width: 80%;
 }
-
+.bAndW{
+  filter: grayscale(1);
+}
 /* Tags */
 .post-tag {
   display: inline-flex;
@@ -453,13 +453,13 @@ textarea{
 }
 @media screen and (max-width: 615px){
   .blog-section-container{
-    height: 140vh;
+    height: 209vh;
   }
   .tmpl-home .postlist-link{
   font-size: 1em;
 }
 };
-@media screen and (max-width: 415px){
+/* @media screen and (max-width: 415px){
   .landingTitle{
     font-size: 1.5em;
   }
@@ -480,9 +480,12 @@ textarea{
     margin: 0px;
     padding: 10px;
     width: 100%;
-    height: 190vh;
+    height: 1000vh;
+  }
+  .blog-content{
+    height: 180vh;
   }
   .blog{
     margin: 10px;
   }
-};
+}; */
