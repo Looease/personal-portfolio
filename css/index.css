@@ -128,12 +128,14 @@ code {
 .postlist {
   list-style: none;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 .postlist-item {
   margin-bottom: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* align-items: baseline; */
   counter-increment: start-from -1;
   line-height: 1.8;
 }
@@ -295,6 +297,10 @@ code {
   text-decoration: none;
   line-height: 1.8;
 }
+.apprenticeship-tag{
+  display: block;
+  width: fit-content;
+}
 a[href].post-tag,
 a[href].post-tag:visited {
   color: inherit;
@@ -430,7 +436,7 @@ a[href].direct-link:focus:visited,
   }
   .postlist-item{
     display: flex;
-    /* flex-direction: column     */
+    flex-direction: column    
   }
   .apprentice-section{
   display: flex;
@@ -523,7 +529,7 @@ textarea{
     font-size: 13px;
   }
   .blog-section-container{
-    height: 110vh;
+    height: 105vh;
   }
   .blog-content{
     height: 200vh;
@@ -534,7 +540,7 @@ textarea{
 }
 @media screen and (max-width: 615px){
   .blog-section-container{
-    height: 170vh;
+    height: 1650vh;
   }
 };
 @media screen and (max-width: 415px){
@@ -558,7 +564,7 @@ textarea{
     margin: 0px;
     padding: 10px;
     width: 100%;
-    height: 180vh;
+    height: 175vh;
   }
   .blog{
     margin: 10px;

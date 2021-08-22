@@ -2,8 +2,7 @@
 title: Overview of Apprenticeship.
 description: My overview.
 date: 2021-05-29
-tags:
-  - Apprenticeship
+tags: apprenticeship
 layout: layouts/post.njk
 eleventyExcludeFromCollections: true
 

@@ -11,7 +11,7 @@
       <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
     {% endfor %}
 
-    <p class="description"href="{{ resource.url | url }}" class="postlist-link">{% if resource.data.description %}{{ resource.data.description }}{% else %}<code>{{ resource.url }}</code>{% endif %}</p>
+    <p class="description" href="{{ resource.url | url }}" class="postlist-link">{% if resource.data.description %}{{ resource.data.description }}{% else %}<code>{{ resource.url }}</code>{% endif %}</p>
     {# <time class="postlist-date" datetime="{{ resource.date | htmlDateString }}">{{ resource.date | readableDate }}</time> #}
   
   </li>

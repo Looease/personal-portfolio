@@ -10,10 +10,13 @@ I needed to complete the BCS Methodologies Exam for the BCS Software Engineer Ap
 
 - The purpose of the Software Development Life Cycle is to provide a set of steps to create a software end product. It’s just casual and NOT an explicit framework. 
 
+{% for tag in collections.tagList | filterTagList %}
+  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+{% endfor %}
 
-<!-- 
 <a href="{{ '/posts/firstpost/' | url }}">First post</a>
-<a href="{{ '/posts/thirdpost/' | url }}">Third post</a> -->
+<a href="{{ '/posts/thirdpost/' | url }}">Third post</a>
 
 
 
