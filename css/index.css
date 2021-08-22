@@ -396,7 +396,7 @@ a[href].direct-link:focus:visited,
     height: 95vh;
   }
   .blog-content{
-    overflow: auto;
+    overflow: hidden;
     height: 80vh;
     width: fit-content;
   }
