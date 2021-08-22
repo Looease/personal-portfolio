@@ -10,7 +10,7 @@
     {# <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>#}
     {% for tag in post.data.tags | filterTagList %}
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="post-tag apprenticeship-tag">{{ tag }}</a>
+      <li><a href="{{ tagUrl | url }}" class="post-tag apprenticeship-tag">{{ tag }}</a></li>
     {% endfor %} 
   </li>
 {% endfor %}
