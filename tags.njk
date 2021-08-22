@@ -9,19 +9,19 @@ pagination:
     - post
     - posts
     - tagList
+    - learning
     - resource
-    - Apprenticeship
     - apprenticeship
   addAllPagesToCollections: true
 layout: layouts/home.njk
 eleventyComputed:
-#title: Tagged “{{ tag }}”
+  title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag | slug }}/
 ---
 {# <h1>Tagged “{{ tag }}”</h1> #}
 
-{% set postslist = collections[ all ] %}
-{# {% set resourcelist = collections[ tag ] %}  #}
+{% set postslist = collections[ tag ] %}
+{# {% set resourcelist = collections[ tag ] %} #}
 {% include "postslist.njk" %}
-{#{% include "resourcelist.njk" %} #}
+{# {% include "resourcelist.njk" %} #}
 <p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>

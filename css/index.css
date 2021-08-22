@@ -1,10 +1,6 @@
 /* Colors */
 :root {
   --lightgray: #e0e0e0;
-  --gray: #C0C0C0;
-  --darkgray: #333;
-  --navy: #17050F;
-  --blue: #082840;
   --white: #fff;
   --duck: #AECDD2;
 }
@@ -86,8 +82,8 @@ code {
 .highlight-line {
   display: block;
   padding: 0.125em 1em;
-  text-decoration: none; /* override del, ins, mark defaults */
-  color: inherit; /* override del, ins, mark defaults */
+  text-decoration: none; 
+  color: inherit;
 }
 
 /* allow highlighting empty lines */
@@ -201,7 +197,6 @@ code {
 
 .intro{
   height: 25vh;
-  /* margin-top: 50px; */
   margin-bottom: 50px; 
   font-size: 1.5em;
   display: flex;
@@ -214,39 +209,6 @@ code {
 .blurb{
   max-width: 37em;
 }
-
-/* Squares */
-
-/* .squaresContainer{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 60vh;
-} */
-/* .squaresContainer li{
-  text-decoration: none;
-} */
-/* .square{
-  list-style: none;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 400px;
-  height: 400px;
-  cursor: pointer;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  /* background-color: var(--duck);
-} */
-.square img{
-  width: 400px;
-  height: 400px;
-  object-fit: contain;
-  /* filter: grayscale(100%); */
-}
-
-
 /*Blog Section*/
 .blog-section-container{
   padding-left: 15%;
@@ -336,11 +298,6 @@ a[href].post-tag:focus {
   flex-direction: column;
 }
 
-/* .markDowns p{
-  text-align: center;
-} */
-
-
 /* Direct Links / Markdown Headers */
 .direct-link {
   font-family: sans-serif;
@@ -364,116 +321,6 @@ a[href].direct-link:focus:visited,
   justify-content: center;
   align-items: center;
 }
-
-
-@media screen and (max-width: 1300px){
-  .blog-section-container{
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-    .square{
-      margin: 50px;
-      width: 300px;
-      height: 300px;
-    }
-    .square img{
-      width: 300px;
-      height: 300px;
-      object-fit: contain;
-    }
-    form{
-      width: 100%;
-    }
-    form input{
-      width: 70%;
-      height: 30px;
-    }
-    form textarea{
-      width: 70%;
-      height: 100px;
-    }
-}
-@media screen and (max-width: 975px){
-  .me{
-    width: 250px;
-    height: 250px;
-  }
-  .landingTitle{
-    font-size: 3em;
-    margin: 0px;
-    color: var(--duck);
-    text-transform: uppercase;
-    font-weight: 600;
-  }
-  .landingSubTitle{
-    font-size: 2em;
-    margin: 0px;
-    color: var(--duck);
-  }
-  .intro{
-    height: 15vh;
-    /* margin-top: 50px; */
-    margin-bottom: 50px; 
-    font-size: 1em;
-  }
-  .blog-section-container{
-    display: flex;
-    flex-direction:column ;
-    width: 100%;
-    height: 95vh;
-  }
-  .blog-content{
-    overflow: auto;
-    height: 80vh;
-    width: fit-content;
-  }
-  .text-mobile{
-    font-size: 0.75em
-  }
-  .description{
-    margin-bottom: 10px;
-    font-size: 0.75em
-  }
-  .postlist-item{
-    display: flex;
-    flex-direction: column    
-  }
-  .apprentice-section{
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-}
-.tag-section{
-  display: flex;
-  justify-self: flex-start;
-  flex-direction: column;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  align-items: baseline;
-}
-  /* .blog{
-    margin: 40px;
-  } */
-  /* .squaresContainer{
-    display: flex;
-    flex-direction: column;
-    padding-top: 100px;
-    width: 100%;
-    height: 145vh;
-  }
-  .square{
-    margin: 50px;
-    width: 250px;
-    height: 250px;
-  }
-  .square img{
-    width: 250px;
-    height: 250px;
-    object-fit: contain;
-    /* filter: grayscale(100%); 
-  } */
-};
-
 /*Form*/
 .formContainer{
   width: 100%;
@@ -507,9 +354,86 @@ textarea{
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width: 1300px){
+  .blog-section-container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+    form{
+      width: 100%;
+    }
+    form input{
+      width: 70%;
+      height: 30px;
+    }
+    form textarea{
+      width: 70%;
+      height: 100px;
+    }
+}
+@media screen and (max-width: 975px)
+{
+  .me{
+    width: 250px;
+    height: 250px;
+  }
+  .landingTitle{
+    font-size: 3em;
+    margin: 0px;
+    color: var(--duck);
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .landingSubTitle{
+    font-size: 2em;
+    margin: 0px;
+    color: var(--duck);
+  }
+  .intro{
+    height: 15vh;
+    margin-bottom: 50px; 
+    font-size: 1em;
+  }
+  .blog-section-container{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 95vh;
+  }
+  .blog-content{
+    height: 80vh;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: fit-content;
+    overflow: hidden
+  }
+  .text-mobile{
+    font-size: 0.75em
+  }
+  .description{
+    margin-bottom: 10px;
+    font-size: 0.75em
+  }
+  .postlist-item{
+    display: flex;
+    flex-direction: column    
+  }
+  .apprentice-section{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+/* .tag-section{
+  display: flex;
+  justify-self: flex-start;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  align-items: baseline;
+}   */
+};
 
-
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
   .me{
     width: 175px;
     height: 175px;
@@ -528,9 +452,9 @@ textarea{
   .blurb{
     font-size: 13px;
   }
-  .blog-section-container{
-    height: 105vh;
-  }
+  /* .blog-section-container{
+    height: 120vh;
+  } */
   .blog-content{
     height: 200vh;
   }
@@ -538,12 +462,12 @@ textarea{
     margin: 10px;
   }
 }
-@media screen and (max-width: 615px){
+@media screen and (max-width: 630px){
   .blog-section-container{
-    height: 1650vh;
+    height: 115vh;
   }
 };
-@media screen and (max-width: 415px){
+@media screen and (max-width: 500px){
   .landingTitle{
     font-size: 1.5em;
   }
@@ -559,21 +483,14 @@ textarea{
     font-size: 0.75em;
   }
   .blog-section-container{
-    display: flex;
+    /* display: flex;
     flex-direction:column;
     margin: 0px;
     padding: 10px;
-    width: 100%;
-    height: 175vh;
+    width: 100%; */
+    height: 180vh;
   }
   .blog{
     margin: 10px;
-  }
-  .squaresContainer{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 130vh;
-    padding: 0px;
   }
 };
