@@ -88,28 +88,28 @@ code {
 }
 
 /* allow highlighting empty lines */
-.highlight-line:empty:before {
+/* .highlight-line:empty:before {
   content: " ";
-}
+} */
 /* avoid double line breaks when using display: block; */
-.highlight-line + br {
+/* .highlight-line + br {
   display: none;
-}
+} */
 
-.highlight-line-isdir {
+/* .highlight-line-isdir {
   color: #b0b0b0;
   background-color: #222;
-}
-.highlight-line-active {
+} */
+/* .highlight-line-active {
   background-color: #444;
   background-color: hsla(0, 0%, 27%, .8);
-}
-.highlight-line-add {
+} */
+/* .highlight-line-add {
   background-color: #45844b;
-}
-.highlight-line-remove {
+} */
+/* .highlight-line-remove {
   background-color: #902f2f;
-}
+} */
 
 /* Header */
 .home {
