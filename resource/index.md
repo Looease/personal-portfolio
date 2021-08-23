@@ -25,7 +25,7 @@ Becoming a software engineer is not as difficult as it seems. This section cover
   <br>
   - Final project for 23 Code street - <a href="[/resource/getting-employed/](https://looease.github.io/accessibility-project/p3.html?username=&password=)"> click me</a>
 <br>
-<img src="/img/33.jpeg"/>
+<img class="bAndW" src="/img/33.jpeg"/>
  
 
 <!-- 

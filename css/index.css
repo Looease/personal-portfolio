@@ -243,6 +243,7 @@ code {
   width: 80%;
 }
 .bAndW{
+  object-fit: contain;
   filter: grayscale(1);
 }
 /* Tags */
