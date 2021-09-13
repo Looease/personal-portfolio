@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 2
 ---
 <section class="center-container">
-<form action="https://formspree.io/mpzyleon" method="POST">
+<form class="form" action="https://formspree.io/mpzyleon" method="POST">
         <br>
         <p>Please fill out the form below and I will get back to you. </p>
           <br>
