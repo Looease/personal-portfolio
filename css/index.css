@@ -166,7 +166,7 @@ code {
 
 .me{
   width: 350px;
-  height: 350px;
+  height: auto;
   border-radius: 100%;
 }
 
@@ -189,6 +189,7 @@ code {
   padding-left: 15%;
   padding-right: 15%;
   display: inline-flex;
+  flex: 2 2 10%;
   width: 100%;
   list-style: none;
   height: 60vh;
@@ -314,7 +315,7 @@ a[href].direct-link:focus:visited,
 @media screen and (max-width: 975px){
   .me{
     width: 250px;
-    height: 250px;
+    height: auto;
   }
   .landingTitle{
     font-size: 3em;
@@ -342,6 +343,7 @@ a[href].direct-link:focus:visited,
   .blog-content{
     overflow: hidden;
     height: 90vh;
+    flex: 2, 2, 10%;
     width: fit-content;
   }
   .text-mobile{
@@ -404,7 +406,7 @@ textarea{
 @media screen and (max-width: 800px){
   .me{
     width: 175px;
-    height: 175px;
+    height: auto;
     border-radius: 100%;
   }
   .landingTitle{
@@ -422,15 +424,23 @@ textarea{
     height: 130vh;
   }
   .blog-content{
-    height: 200vh;
+    display: flex;
+    flex: auto;
   }
   .blog{
     margin: 10px;
   }
 }
 @media screen and (max-width: 615px){
+  .intro{
+    margin-top: 20px;
+  }
   .blog-section-container{
-    height: 209vh;
+    height: 180vh;
+  }
+  .blog-content{
+    display: flex;
+    flex-shrink: auto;
   }
   .tmpl-home .postlist-link{
   font-size: 1em;
