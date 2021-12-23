@@ -7,13 +7,28 @@ layout: layouts/post.njk
 ---
 The BCS Level 4 Software Engineering Apprentice Portfolio is the largest piece of work required for the course. It is an amalgamation of all of the work you have completed and demonstrates the skills you have gained.
 
-There is set checklist of competencies that you are expected to complete as part of the portfolio. I really appreciated that this checklist pushed me to take on work that I otherwise may not have if I had joined as a junior engineer. It was great to not be pigeon holed to either the frontend or backend and instead to work across the full stack. I started the apprenticeship convinced that I wanted be a front end engineer but the experience I gained in the backend has given me some food for thought on this.
+From my experience, writing a strong portfolio will set you up to achieve high marks overall. There is set checklist of competencies that you are expected to complete as part of the portfolio. It is important to check off as many of these as possible in the portfolio so you have less to think about for the synoptic project and final interview. 
 
-The most important thing to do when preparing to write your portfolio is take screenshots. Start screenshotting the moment you start working whether it's setting up Github or basic coding. The speed that you learn at will be so fast that you will undoubtedly forget what you did a month ago (and maybe even what you did a week ago).
+## Tips for tackling the portfolio: 
+
+ - I used the checklist to decide which tickets I would work on in sprints. This meant sometimes I would work on building the front-end, other times the back end and other times in deployment or test. I always found senior engineers were happy to pair with me or work with me to establish the best way to tackle tickets.
+
+ - Create folders for each project you work on and write a few short bullet points on what you did, any challenges you faced and how you overcame them. 
+
+ - Start screenshotting the moment you start working whether it's setting up Github or basic coding. The speed that you learn at will be so fast that you will undoubtedly forget what you did a month ago (and maybe even what you did a week ago). Add these images to your folders. 
+
+ - Take time to re-read your work. If it doesn't make sense to you, it probably won't make sense to others. 
+
+ - Follow the PEE writing structure - Point, Evidence, Explanation. Its simple and effective. 
+
+ - Start ASAP. I started writing my portfolio 2 months into my apprenticeship and wrote approximately one project per month. Sometimes these projects weren't complete but I had loads of time to go back and add more examples or pick up tickets that I felt were not adequately reflected in the portfolio. 
+
+ -  Add clear subtitles  to introduce which criteria you will be discussinng next. For example I would introduce the project then have a subtitile called "User Interface" and discuss the front end code. Then I would add a subtitle called "Data & the Backend" and describe my backend work. 
+
+ - Describe the structure of your team and, how you worked and who you worked with. For example, "I worked in the scrum methdoloy using designs created by the UI designer in our team. I paired with testers to do XYZ......" Outlining the who and the how is what will help achieve higher marks.  
+
 
 My portfolio was made up of 4 large projects across 70 pages of work. This included a contents page, introduction, the projects, extra-curricular information and a conclusion. 
-
-I found that the best way to cover all parts of the criteria was to add clear subtitles introducing what I would be discussinng next. For example I would introduce the project then have a subtitile called "User Interface" and discuss the front end code. Then I would add a subtitle called "Data & the Backend" and describe my backend work. 
 
 
 ## Below is a list of the criteria for BCS Level 4 Software Engineering Apprentice Portfolio 
