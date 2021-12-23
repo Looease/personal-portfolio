@@ -2,14 +2,13 @@
 :root {
   --lightgray: #e0e0e0;
   --white: #fff;
-  --duck: #AECDD2;
+  --duck: #aecdd2;
 }
 
 /* Global stylesheet */
 * {
   box-sizing: border-box;
   font-family: sans-serif;
-
 }
 
 html,
@@ -18,8 +17,8 @@ body {
   margin: 0;
   background-color: var(--white);
 }
-.tmpl-post{
-  min-height:90vh;
+.tmpl-post {
+  min-height: 90vh;
 }
 p:last-child {
   margin-bottom: 0;
@@ -55,7 +54,10 @@ table th {
 
 pre,
 code {
-  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono",
+    "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L",
+    "Courier New", Courier, monospace;
   line-height: 1.5;
 }
 pre {
@@ -74,7 +76,7 @@ pre {
   -ms-hyphens: none;
   hyphens: none;
   padding: 1em;
-  margin: .5em 0;
+  margin: 0.5em 0;
   background-color: #f6f6f6;
 }
 code {
@@ -122,8 +124,8 @@ code {
   word-spacing: -0.5px;
 }
 .postlist-link {
-  padding-left: .25em;
-  padding-right: .25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
   text-underline-position: from-font;
   text-underline-offset: 0;
   text-decoration-thickness: 1px;
@@ -135,44 +137,44 @@ code {
   font-size: 1.1875em; /* 19px /16 */
   font-weight: 700;
 }
-.description{
+.description {
   margin-bottom: 10px;
-  font-size:1em;
+  font-size: 1em;
 }
 
 /*Landing Page */
-.landingHead{
+.landingHead {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.landingHead div{
+.landingHead div {
   padding-top: 60px;
   display: flex;
   flex-direction: column;
 }
-.landingTitle{
+.landingTitle {
   font-size: 5em;
   margin: 0px;
   color: var(--duck);
   text-transform: uppercase;
   font-weight: 600;
 }
-.landingSubTitle{
+.landingSubTitle {
   font-size: 3em;
   margin: 0px;
   color: var(--duck);
 }
 
-.me{
-  width: 350px;
+.me {
+  width: 20%;
   height: auto;
   border-radius: 100%;
 }
 
-.intro{
+.intro {
   height: 25vh;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
   font-size: 1.5em;
   display: flex;
   justify-content: center;
@@ -181,11 +183,11 @@ code {
   border-bottom: 1px dashed var(--lightgray);
 }
 
-.blurb{
+.blurb {
   max-width: 37em;
 }
 /*Blog Section*/
-.blog-section-container{
+.blog-section-container {
   padding-left: 15%;
   padding-right: 15%;
   display: inline-flex;
@@ -195,31 +197,31 @@ code {
   height: 60vh;
   border-bottom: 1px dashed var(--lightgray);
 }
-.blog-content{
+.blog-content {
   width: 1000px;
   overflow: scroll;
 }
-.blog{
- margin-left: 20px;
- margin-right: 20px;
+.blog {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.apprentice-section{
+.apprentice-section {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: stretch;
   justify-content: space-around;
-  align-items: flex-end
+  align-items: flex-end;
 }
-.tag-section h1{
+.tag-section h1 {
   display: flex;
   justify-content: flex-end;
 }
-.apprentice-blog{
+.apprentice-blog {
   width: 80%;
 }
-.bAndW{
+.bAndW {
   object-fit: contain;
   filter: grayscale(1);
 }
@@ -260,11 +262,11 @@ a[href].post-tag:focus {
 }
 
 /*Markdown*/
-.posts{
+.posts {
   height: 100%;
 }
 
-.markDowns{
+.markDowns {
   padding-left: 10%;
   padding-right: 10%;
   display: flex;
@@ -275,7 +277,7 @@ a[href].post-tag:focus {
   font-family: sans-serif;
   text-decoration: none;
   font-style: normal;
-  margin-left: .1em;
+  margin-left: 0.1em;
 }
 a[href].direct-link,
 a[href].direct-link:visited {
@@ -288,97 +290,96 @@ a[href].direct-link:focus:visited,
   color: #aaa;
 }
 /*Contact*/
-.center-container{
+.center-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-@media screen and (max-width: 1300px){
-  .blog-section-container{
+@media screen and (max-width: 1300px) {
+  .blog-section-container {
     padding-left: 5%;
     padding-right: 5%;
   }
-    form{
-      width: 100%;
-    }
-    form input{
-      width: 70%;
-      height: 30px;
-    }
-    form textarea{
-      width: 70%;
-      height: 100px;
-    }
+  form {
+    width: 100%;
+  }
+  form input {
+    width: 70%;
+    height: 30px;
+  }
+  form textarea {
+    width: 70%;
+    height: 100px;
+  }
 }
-@media screen and (max-width: 975px){
-  .me{
-    width: 250px;
+@media screen and (max-width: 975px) {
+  .me {
+    width: 30%;
     height: auto;
   }
-  .landingTitle{
+  .landingTitle {
     font-size: 3em;
     margin: 0px;
     color: var(--duck);
     text-transform: uppercase;
     font-weight: 600;
   }
-  .landingSubTitle{
+  .landingSubTitle {
     font-size: 2em;
     margin: 0px;
     color: var(--duck);
   }
-  .intro{
+  .intro {
     height: 15vh;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
     font-size: 1em;
   }
-  .blog-section-container{
+  .blog-section-container {
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     width: 100%;
     height: 115vh;
   }
-  .blog-content{
+  .blog-content {
     overflow: hidden;
     height: 90vh;
     flex: 2, 2, 10%;
     width: fit-content;
   }
-  .text-mobile{
-    font-size: 1em
+  .text-mobile {
+    font-size: 1em;
   }
-  .description{
+  .description {
     margin-bottom: 10px;
-    font-size: 1em
+    font-size: 1em;
   }
-  .postlist-item{
+  .postlist-item {
     display: flex;
   }
-  .apprentice-section{
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
+  .apprentice-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .tag-section {
+    display: flex;
+    justify-self: flex-start;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-bottom: 30px;
+    align-items: baseline;
+  }
 }
-.tag-section{
-  display: flex;
-  justify-self: flex-start;
-  flex-direction: column;
-  padding-top: 50px;
-  margin-bottom: 30px;
-  align-items: baseline;
-}
-};
 
 /*Form*/
-.formContainer{
+.formContainer {
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
 }
-form{
+form {
   border: solid 2px black;
   display: flex;
   justify-content: center;
@@ -387,14 +388,14 @@ form{
   width: 33%;
   border-radius: 30px;
 }
-form input{
+form input {
   width: 40vh;
   height: 30px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
 }
-textarea{
+textarea {
   padding: 0px;
   width: 40vh;
   margin-bottom: 10px;
@@ -403,57 +404,57 @@ textarea{
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 800px){
-  .me{
-    width: 175px;
+@media screen and (max-width: 800px) {
+  .me {
+    width: 35%;
     height: auto;
     border-radius: 100%;
   }
-  .landingTitle{
+  .landingTitle {
     font-size: 1.7em;
     text-transform: uppercase;
   }
-  .landingSubTitle{
+  .landingSubTitle {
     font-size: 1.2em;
     margin-bottom: 10px;
   }
-  .blurb{
+  .blurb {
     font-size: 1em;
   }
-  .blog-section-container{
+  .blog-section-container {
     height: 130vh;
   }
-  .blog-content{
+  .blog-content {
     display: flex;
     flex: auto;
   }
-  .blog{
+  .blog {
     margin: 10px;
   }
 }
-@media screen and (max-width: 615px){
-  .intro{
+@media screen and (max-width: 615px) {
+  .intro {
     margin-top: 20px;
   }
-  .blog-section-container{
+  .blog-section-container {
     height: 180vh;
   }
-  .blog-content{
+  .blog-content {
     display: flex;
     flex-shrink: auto;
   }
-  .tmpl-home .postlist-link{
-  font-size: 1em;
-}
-form{
-  padding: 5px;
-  text-align: center;
-  width: 100%;
-}
-form input{
-  width: 25vh;
-}
-form textarea{
-  width: 25vh;
-}
-};
+  .tmpl-home .postlist-link {
+    font-size: 1em;
+  }
+  form {
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+  }
+  form input {
+    width: 25vh;
+  }
+  form textarea {
+    width: 25vh;
+  }
+} ;
