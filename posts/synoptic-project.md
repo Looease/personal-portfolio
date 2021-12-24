@@ -23,3 +23,4 @@ Get practice with:
 - Manual testing
 
 ## My Synoptic Project
+https://github.com/Looease/bcs-quiz-manager
