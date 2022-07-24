@@ -24,7 +24,6 @@
     
       <h1 class="home logo"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
-      {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav" id="nav">
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
@@ -39,20 +38,12 @@
 
     <footer>
        <ul>
-          <a href="/">Louise Gilligan</a>
+          <a href="/">Michael Gilligan</a>
           <li><a href="/contact/" className="footer">Contact</a></li>
-          <li><a href="https://www.linkedin.com/in/louise-gilligan-3b437069/" className="footer">Linkedin</a></li>
-          <li><a href="https://www.instagram.com/louisesgilligan/" className="footer">Instagram</a></li>
-          <li><a href="https://github.com/Looease" className="footer">Github</a></li>
+          <li><a href=" className="footer">Linkedin</a></li>
+          <li><a href="https://twitter.com/micha3lgilligan" className="footer">Twitter</a></li>
         </ul>
-        {# <ul>
-          <a href="/">Portfolio</a>
-          <li><a to="" className="footer">KBL Solutions</a></li>
-          <li><a to=""className="footer">Museum Meltdowm</a></li>
-          <li><a to="" className="footer">Resources</a></li>
-        </ul> #}
     </footer>
-    <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>
 

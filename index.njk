@@ -10,14 +10,31 @@ layout: layouts/home.njk
 
 <section class="landingHead">
 <div>
-<h2 class="landingTitle">Louise Learns{{typewriter}}</h2>
-<p class="landingSubTitle">Follow me as I learn to code</p>
+<h2 class="landingTitle">Michael Gilligan’s Design Portfolio of Work</h2>
+<p class="landingSubTitle">Created During My Time at Manchester
+Metropolitan University 2019-2022
+
+Design Engineering BSc</p>
 </div>
- <img src="img/landing/2468.jpg" class="me"></img> 
 </section>
 <section class="intro">
-<p class="blurb">Join me on my journey as a Junior Software Engineer. 
-I am currently a full time enginner and full time student, working through the BCS Level 4 Software Enineering Apprenticeship.</p>
+<p class="blurb">My name is Michael Gilligan and am currently a freelance design engineer, beneath is the
+work that I created on the solidworks program and in the workshop using 3D printing
+machines available program throughout my time at university, due to covid restrictions
+during my time at university many of these designs have only been created through CAD,
+but I have experience in a workshop environment from my time at college. My skillsets
+include a wide variety of Solidworks and Autodesk programs, I am very well equipped to use
+the Microsoft packages such as word, PowerPoint and excel, please feel free to look through
+my work that I have created at university on this portfolio of such work.
+All work has been created with association of Manchester Metropolitan University (MMU)
+be that lecturer or any staff or student member who was willing to give advice for the
+completion of the work.
+I can be contacted on certain areas to give words on my work or to take any feedback that
+you may have as a reader.
+<ul class="contact">
+   <li> <a href = "mailto: michaelgilligan@gmail.co.uk">michaelgilligan@gmail.co.uk</a></li>
+   <li><a href = "mailto: michaelgilligan@gmail.co.uk">Linkedin: Michael Gilligan</a></li>  
+</ul>
 </section>
 
 {# <section class="neonSection">
@@ -42,7 +59,6 @@ Welcome
 
 <section class="apprentice-section">
 <section class="tag-section">
-<h1>Popular Categories</h1>
 {% for tag in collections.tagList | filterTagList %}
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
   <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
